@@ -2,9 +2,6 @@ import numpy as np
 from scipy.interpolate import RegularGridInterpolator
 from lenstronomy.LensModel.lens_model import LensModel
 
-# Assumed constant elsewhere in your codebase:
-# jwst_pix = 0.031  # [arcsec] (example)
-
 class ClusterLocalDeflection:
     """
     Precompute (alpha_x, alpha_y) for an NFW_ELLIPSE_CSE lens on a grid that is
